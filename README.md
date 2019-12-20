@@ -13,7 +13,10 @@ The website is 5 pages long and it contains usefull information about the major 
 
 ## Screenshots from the website
 ![](https://github.com/Aldarraji/Computer-Information-System-website-template/blob/master/final/Screenshots/1.JPG)
+
 ![](https://github.com/Aldarraji/Computer-Information-System-website-template/blob/master/final/Screenshots/5.JPG)
+
 ![](https://github.com/Aldarraji/Computer-Information-System-website-template/blob/master/final/Screenshots/6.JPG)
+
 
 
