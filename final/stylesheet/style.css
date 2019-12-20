@@ -1,0 +1,182 @@
+ * { box-sizing: border-box; } 
+body { background-color:#E6E6FA;
+       color:#1E1ECA;
+       font-family:Arial, Verdana, sans-serif;
+ text-align: center;
+	 
+}
+header { background-color:#191970;   
+       color:#DFDFF1;
+       font-family:Georgia, "Times New Roman", serif;
+	   text-indent: 1em;
+}
+h1 { padding: 1em; }
+nav a {text-decoration: none;
+ font-size:1.1em;
+border: 5px inset; }
+nav { word-spacing: 5px; }
+nav li {display: inline; 
+		padding-right: 10px; }
+	
+nav ul { list-style-type: none;
+	text-align:center; }
+h2 { background-color:#AEAED4;
+     color:#151580;
+     font-family:Georgia, "Times New Roman", serif;
+	 text-align: center; 
+	 border-bottom: 2px dashed #191970;
+}
+p { font-size:.90em;
+    text-indent: 3em; 
+}
+
+footer { font-style: italic;
+         font-size: .75em; 
+		 border-top: thin solid #aeaed4;
+         padding-top: 10px;
+         color: #333333;
+
+}
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 600px;
+
+  /* To see the limits of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all label have the same size and are properly align */
+  display: inline-block;
+  width: 110px;
+  text-align: right;
+}
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text field */
+  width: 450px;
+
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multi-line text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra magin represent the same space as the space between
+     the labels and their text fields */
+  margin-left: .5em;
+} 
+#mySubmit { margin-left: 110px; }
+@media only screen and (max-width: 1024px)
+{	#wrapper { width: auto;
+				min-width: 0;
+				margin: 0;
+				padding: 0;
+				box-shadow: none; 	}
+	
+	body {
+		margin: 0; }
+	
+	main { padding: 10px;
+	      margin: 0;
+		  font-size: 80%; }
+		 
+	
+	nav { float: none;
+		display: block;
+	      width: auto;
+		  padding-top: 0;
+		  margin: 0;
+		  font-size: 1.3em; 
+			 }
+	nav li  { display: block;
+		padding-bottom: 5px;
+			 }
+	nav a { display: block;
+	      width: auto;
+		  font-weight: bold;
+		  border: none;
+				border-bottom: 1px solid #000000;
+					 }
+	nav ul { padding: 0;
+	       margin: auto; }
+		   
+
+}
+
+@media only screen and (max-width: 768px)
+{	header {
+		text-align: center;
+		padding: 15px 0px 40px 0px;
+		background-image: none;
+		font-size: 125%; }
+	
+	img {
+		display: none; }
+		
+	nav { margin: 0; 
+		display: block;}
+	nav a { display: block;
+	       padding: 0.2em;
+		   width: auto;
+		   border-bottom: 1px solid #FEF6C2; }
+	nav li { display: block; }
+	
+.videodiv {
+     position: relative;
+     padding-bottom: 26.25%;
+     padding-top: 25px;
+     height: 0;
+     overflow: auto; 
+      } 
+	
+.videodiv iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 70%;
+	 height: 100%; }
+form {
+  /* Just to center the form on the page */
+  margin: 0;
+width: auto; }
+input, textarea {
+ 
+  /* To give the same size to all text field */
+width: auto; }
+}
